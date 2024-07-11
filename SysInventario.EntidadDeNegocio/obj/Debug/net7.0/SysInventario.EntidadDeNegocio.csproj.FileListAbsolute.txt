@@ -1,0 +1,14 @@
+C:\Users\Enrique\Desktop\SysInventario\SysInventario.EntidadDeNegocio\bin\Debug\net7.0\SysInventario.EntidadDeNegocio.deps.json
+C:\Users\Enrique\Desktop\SysInventario\SysInventario.EntidadDeNegocio\bin\Debug\net7.0\SysInventario.EntidadDeNegocio.runtimeconfig.json
+C:\Users\Enrique\Desktop\SysInventario\SysInventario.EntidadDeNegocio\bin\Debug\net7.0\SysInventario.EntidadDeNegocio.dll
+C:\Users\Enrique\Desktop\SysInventario\SysInventario.EntidadDeNegocio\bin\Debug\net7.0\SysInventario.EntidadDeNegocio.pdb
+C:\Users\Enrique\Desktop\SysInventario\SysInventario.EntidadDeNegocio\obj\Debug\net7.0\SysInventario.EntidadDeNegocio.csproj.AssemblyReference.cache
+C:\Users\Enrique\Desktop\SysInventario\SysInventario.EntidadDeNegocio\obj\Debug\net7.0\SysInventario.EntidadDeNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Enrique\Desktop\SysInventario\SysInventario.EntidadDeNegocio\obj\Debug\net7.0\SysInventario.EntidadDeNegocio.AssemblyInfoInputs.cache
+C:\Users\Enrique\Desktop\SysInventario\SysInventario.EntidadDeNegocio\obj\Debug\net7.0\SysInventario.EntidadDeNegocio.AssemblyInfo.cs
+C:\Users\Enrique\Desktop\SysInventario\SysInventario.EntidadDeNegocio\obj\Debug\net7.0\SysInventario.EntidadDeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Enrique\Desktop\SysInventario\SysInventario.EntidadDeNegocio\obj\Debug\net7.0\SysInventario.EntidadDeNegocio.dll
+C:\Users\Enrique\Desktop\SysInventario\SysInventario.EntidadDeNegocio\obj\Debug\net7.0\refint\SysInventario.EntidadDeNegocio.dll
+C:\Users\Enrique\Desktop\SysInventario\SysInventario.EntidadDeNegocio\obj\Debug\net7.0\SysInventario.EntidadDeNegocio.pdb
+C:\Users\Enrique\Desktop\SysInventario\SysInventario.EntidadDeNegocio\obj\Debug\net7.0\SysInventario.EntidadDeNegocio.genruntimeconfig.cache
+C:\Users\Enrique\Desktop\SysInventario\SysInventario.EntidadDeNegocio\obj\Debug\net7.0\ref\SysInventario.EntidadDeNegocio.dll
