@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using SysInventario.EntidadDeNegocio;
 
-namespace SysInventario.EntidadDeNegocio;
+namespace SysInventario.AccesoADatos;
 
 public partial class BdContext : DbContext
 {

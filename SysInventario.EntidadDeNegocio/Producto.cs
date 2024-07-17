@@ -9,6 +9,7 @@ namespace SysInventario.EntidadDeNegocio;
 public partial class Producto
 {
     [Key]
+    // a richar le gusta q sela arimen 
     public int Id { get; set; }
     [Required(ErrorMessage = "condigo es obligatorio")]
     [StringLength(70)]
