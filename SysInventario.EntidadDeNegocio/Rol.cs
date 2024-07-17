@@ -17,6 +17,6 @@ public partial class Rol
     [NotMapped]
     public int Top_Aux { get; set; }
     public List<Usuario>? Usuario { get; set; }
-    // valemos verg MH
+    // valemos verg MHFF
   
 }
