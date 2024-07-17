@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Enrique\\Desktop\\SysInventario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90052764-33D5-42A7-9DD6-E8C113524BF8}|SysInventario.EntidadDeNegocio\\SysInventario.EntidadDeNegocio.csproj|C:\\Users\\Enrique\\Desktop\\SysInventario\\sysinventario.entidaddenegocio\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90052764-33D5-42A7-9DD6-E8C113524BF8}|SysInventario.EntidadDeNegocio\\SysInventario.EntidadDeNegocio.csproj|C:\\Users\\Enrique\\Desktop\\SysInventario\\sysinventario.entidaddenegocio\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90052764-33D5-42A7-9DD6-E8C113524BF8}|SysInventario.EntidadDeNegocio\\SysInventario.EntidadDeNegocio.csproj|solutionrelative:sysinventario.entidaddenegocio\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90052764-33D5-42A7-9DD6-E8C113524BF8}|SysInventario.EntidadDeNegocio\\SysInventario.EntidadDeNegocio.csproj|c:\\users\\enrique\\desktop\\sysinventario\\sysinventario.entidaddenegocio\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90052764-33D5-42A7-9DD6-E8C113524BF8}|SysInventario.EntidadDeNegocio\\SysInventario.EntidadDeNegocio.csproj|solutionrelative:sysinventario.entidaddenegocio\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90052764-33D5-42A7-9DD6-E8C113524BF8}|SysInventario.EntidadDeNegocio\\SysInventario.EntidadDeNegocio.csproj|C:\\Users\\Enrique\\Desktop\\SysInventario\\sysinventario.entidaddenegocio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90052764-33D5-42A7-9DD6-E8C113524BF8}|SysInventario.EntidadDeNegocio\\SysInventario.EntidadDeNegocio.csproj|solutionrelative:sysinventario.entidaddenegocio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F94345-6EC2-4DDB-8895-EB421451645E}|SysInventario.AccesoADatos\\SysInventario.AccesoADatos.csproj|C:\\Users\\Enrique\\Desktop\\SysInventario\\sysinventario.accesoadatos\\bdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F94345-6EC2-4DDB-8895-EB421451645E}|SysInventario.AccesoADatos\\SysInventario.AccesoADatos.csproj|solutionrelative:sysinventario.accesoadatos\\bdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90052764-33D5-42A7-9DD6-E8C113524BF8}|SysInventario.EntidadDeNegocio\\SysInventario.EntidadDeNegocio.csproj|C:\\Users\\Enrique\\Desktop\\SysInventario\\sysinventario.entidaddenegocio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,18 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3C1CCA05-34B9-4C67-8F1B-2BE818C93C7C}|SysInventario.LogicaDeNegocio\\SysInventario.LogicaDeNegocio.csproj|C:\\Users\\Enrique\\Desktop\\SysInventario\\sysinventario.logicadenegocio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C1CCA05-34B9-4C67-8F1B-2BE818C93C7C}|SysInventario.LogicaDeNegocio\\SysInventario.LogicaDeNegocio.csproj|solutionrelative:sysinventario.logicadenegocio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1F94345-6EC2-4DDB-8895-EB421451645E}|SysInventario.AccesoADatos\\SysInventario.AccesoADatos.csproj|c:\\users\\enrique\\desktop\\sysinventario\\sysinventario.accesoadatos\\bdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1F94345-6EC2-4DDB-8895-EB421451645E}|SysInventario.AccesoADatos\\SysInventario.AccesoADatos.csproj|solutionrelative:sysinventario.accesoadatos\\bdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90052764-33D5-42A7-9DD6-E8C113524BF8}|SysInventario.EntidadDeNegocio\\SysInventario.EntidadDeNegocio.csproj|C:\\Users\\Enrique\\Desktop\\SysInventario\\sysinventario.entidaddenegocio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90052764-33D5-42A7-9DD6-E8C113524BF8}|SysInventario.EntidadDeNegocio\\SysInventario.EntidadDeNegocio.csproj|solutionrelative:sysinventario.entidaddenegocio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90052764-33D5-42A7-9DD6-E8C113524BF8}|SysInventario.EntidadDeNegocio\\SysInventario.EntidadDeNegocio.csproj|C:\\Users\\Enrique\\Desktop\\SysInventario\\sysinventario.entidaddenegocio\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90052764-33D5-42A7-9DD6-E8C113524BF8}|SysInventario.EntidadDeNegocio\\SysInventario.EntidadDeNegocio.csproj|solutionrelative:sysinventario.entidaddenegocio\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1F94345-6EC2-4DDB-8895-EB421451645E}|SysInventario.AccesoADatos\\SysInventario.AccesoADatos.csproj|C:\\Users\\Enrique\\Desktop\\SysInventario\\sysinventario.accesoadatos\\sysinventario.accesoadatos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -56,26 +56,27 @@
               "RelativeDocumentMoniker": "SysInventario.AccesoADatos\\BdContext.cs",
               "ToolTip": "C:\\Users\\Enrique\\Desktop\\SysInventario\\SysInventario.AccesoADatos\\BdContext.cs",
               "RelativeToolTip": "SysInventario.AccesoADatos\\BdContext.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAAAMAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T19:20:55.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Rol.cs",
               "DocumentMoniker": "C:\\Users\\Enrique\\Desktop\\SysInventario\\SysInventario.EntidadDeNegocio\\Rol.cs",
               "RelativeDocumentMoniker": "SysInventario.EntidadDeNegocio\\Rol.cs",
               "ToolTip": "C:\\Users\\Enrique\\Desktop\\SysInventario\\SysInventario.EntidadDeNegocio\\Rol.cs",
               "RelativeToolTip": "SysInventario.EntidadDeNegocio\\Rol.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAANAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T17:11:16.493Z"
+              "WhenOpened": "2024-07-10T17:11:16.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\Enrique\\Desktop\\SysInventario\\SysInventario.EntidadDeNegocio\\Categoria.cs",
               "RelativeDocumentMoniker": "SysInventario.EntidadDeNegocio\\Categoria.cs",
@@ -83,7 +84,8 @@
               "RelativeToolTip": "SysInventario.EntidadDeNegocio\\Categoria.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T19:42:10.175Z"
+              "WhenOpened": "2024-07-10T19:42:10.175Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -99,20 +101,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\Enrique\\Desktop\\SysInventario\\SysInventario.EntidadDeNegocio\\Producto.cs",
               "RelativeDocumentMoniker": "SysInventario.EntidadDeNegocio\\Producto.cs",
               "ToolTip": "C:\\Users\\Enrique\\Desktop\\SysInventario\\SysInventario.EntidadDeNegocio\\Producto.cs",
               "RelativeToolTip": "SysInventario.EntidadDeNegocio\\Producto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA3AAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA0wBUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T17:12:38.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Enrique\\Desktop\\SysInventario\\SysInventario.EntidadDeNegocio\\Usuario.cs",
               "RelativeDocumentMoniker": "SysInventario.EntidadDeNegocio\\Usuario.cs",
@@ -120,8 +122,7 @@
               "RelativeToolTip": "SysInventario.EntidadDeNegocio\\Usuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T17:27:20.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T17:27:20.463Z"
             },
             {
               "$type": "Document",
@@ -137,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Enrique\\Desktop\\SysInventario\\SysInventario.LogicaDeNegocio\\Class1.cs",
               "RelativeDocumentMoniker": "SysInventario.LogicaDeNegocio\\Class1.cs",
@@ -145,8 +146,7 @@
               "RelativeToolTip": "SysInventario.LogicaDeNegocio\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T20:43:13.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T20:43:13.606Z"
             },
             {
               "$type": "Document",
