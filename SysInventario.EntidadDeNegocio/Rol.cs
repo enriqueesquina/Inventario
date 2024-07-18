@@ -18,8 +18,4 @@ public partial class Rol
     public int Top_Aux { get; set; }
     public List<Usuario>? Usuario { get; set; }
 
-  //wola pt
-  //Hola mi vida
-  //ghjñhvjvkct 
-  // hola nnas
 }

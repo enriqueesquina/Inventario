@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysInventario.AccesoADatos", "SysInventario.AccesoADatos\SysInventario.AccesoADatos.csproj", "{B1F94345-6EC2-4DDB-8895-EB421451645E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SysInventario.AccesoADatos", "SysInventario.AccesoADatos\SysInventario.AccesoADatos.csproj", "{B1F94345-6EC2-4DDB-8895-EB421451645E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysInventario.EntidadDeNegocio", "SysInventario.EntidadDeNegocio\SysInventario.EntidadDeNegocio.csproj", "{90052764-33D5-42A7-9DD6-E8C113524BF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SysInventario.EntidadDeNegocio", "SysInventario.EntidadDeNegocio\SysInventario.EntidadDeNegocio.csproj", "{90052764-33D5-42A7-9DD6-E8C113524BF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysInventario.LogicaDeNegocio", "SysInventario.LogicaDeNegocio\SysInventario.LogicaDeNegocio.csproj", "{3C1CCA05-34B9-4C67-8F1B-2BE818C93C7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SysInventario.LogicaDeNegocio", "SysInventario.LogicaDeNegocio\SysInventario.LogicaDeNegocio.csproj", "{3C1CCA05-34B9-4C67-8F1B-2BE818C93C7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventario.WebAPI", "Inventario.WebAPI\Inventario.WebAPI.csproj", "{C26540A3-F49E-4595-953A-776778DF2A9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3C1CCA05-34B9-4C67-8F1B-2BE818C93C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C1CCA05-34B9-4C67-8F1B-2BE818C93C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C1CCA05-34B9-4C67-8F1B-2BE818C93C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26540A3-F49E-4595-953A-776778DF2A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26540A3-F49E-4595-953A-776778DF2A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26540A3-F49E-4595-953A-776778DF2A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26540A3-F49E-4595-953A-776778DF2A9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
