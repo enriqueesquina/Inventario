@@ -19,5 +19,6 @@ public partial class Rol
     public List<Usuario>? Usuario { get; set; }
     // valemos verg MHFF
     //richar me la xd
+    //drftgyhjdftghjjfgh
   
 }
