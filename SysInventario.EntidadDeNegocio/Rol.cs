@@ -18,5 +18,6 @@ public partial class Rol
     public int Top_Aux { get; set; }
     public List<Usuario>? Usuario { get; set; }
     // valemos verg MHFF
+    //richar me la xd
   
 }
