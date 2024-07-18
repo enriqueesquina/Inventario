@@ -27,7 +27,7 @@ namespace Inventario.WebAPI.Controllers
 
         }
 
-        [HttpPost(Name = "PostCategoria")]
+        [HttpPost(Name = "PostCategorias")]
         public async Task<int> Post(Categoria pCategoria)
         {
             if (pCategoria.Id >= 0)
