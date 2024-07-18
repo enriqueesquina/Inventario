@@ -19,4 +19,5 @@ public partial class Rol
     public List<Usuario>? Usuario { get; set; }
 
   //wola pt
+  //Hola mi vida
 }
