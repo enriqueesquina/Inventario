@@ -26,5 +26,19 @@ namespace Inventario.WebAPI.Controllers
             }
 
         }
+
+        [HttpPost(Name = "PostCategoria")]
+        public async Task<int> Post(Categoria pCategoria)
+        {
+            if (pCategoria.Id >= 0)
+            {
+                int resultado = await CategoriaDAL.CrearAsync(pCategoria);
+                return resultado;
+            }
+            else
+            {
+                return 0;
+            }
+        }
     }
 }
