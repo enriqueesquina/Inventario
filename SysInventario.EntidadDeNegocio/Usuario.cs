@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace SysInventario.EntidadDeNegocio;
 
-public partial class Usuario
+public class Usuario
 {
     [Key]
     public int Id { get; set; }
@@ -26,7 +26,7 @@ public partial class Usuario
     [Required(ErrorMessage = "Password es obligatorio")]
     [DataType(DataType.Password)]
     [StringLength(32, ErrorMessage = "Password debe estar entre 5 a 32 caracteres", MinimumLength = 5)]
-    public string? Password { get; set; }
+    public string? Password { get; set; } 
     [Required(ErrorMessage = "Estatus es obligatorio")]
     public byte Estatus { get; set; }
     [Display(Name = "Fecha registro")]
@@ -46,5 +46,5 @@ public partial class Usuario
     {
     ACTIVO = 1,
     INACTIVO = 2
-     }
+    }
 }

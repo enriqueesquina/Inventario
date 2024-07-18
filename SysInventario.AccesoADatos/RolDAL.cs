@@ -26,7 +26,7 @@ namespace SysInventario.AccesoADatos
             using (var bdContexto = new BdContext())
             {
                 var rol = await bdContexto.Rol.FirstOrDefaultAsync(s => s.Id == pRol.Id);
-                rol.Nombre = pRol.Nombre;
+                rol!.Nombre = pRol.Nombre;
                 bdContexto.Update(rol);
                 result = await bdContexto.SaveChangesAsync();
             }
@@ -38,7 +38,7 @@ namespace SysInventario.AccesoADatos
             using (var bdContexto = new BdContext())
             {
                 var rol = await bdContexto.Rol.FirstOrDefaultAsync(s => s.Id == pRol.Id);
-                bdContexto.Rol.Remove(rol);
+                bdContexto.Rol.Remove(rol!);
                 result = await bdContexto.SaveChangesAsync();
             }
             return result;
@@ -50,7 +50,7 @@ namespace SysInventario.AccesoADatos
             {
                 rol = await bdContexto.Rol.FirstOrDefaultAsync(s => s.Id == pRol.Id);
             }
-            return rol;
+            return rol!;
         }
         public static async Task<List<Rol>> ObtenerTodosAsync()
         {
@@ -66,7 +66,7 @@ namespace SysInventario.AccesoADatos
             if (pRol.Id > 0)
                 pQuery = pQuery.Where(s => s.Id == pRol.Id);
             if (!string.IsNullOrWhiteSpace(pRol.Nombre))
-                pQuery = pQuery.Where(s => s.Nombre.Contains(pRol.Nombre));
+                pQuery = pQuery.Where(s => s.Nombre!.Contains(pRol.Nombre));
             pQuery = pQuery.OrderByDescending(s => s.Id).AsQueryable();
             if (pRol.Top_Aux > 0)
                 pQuery = pQuery.Take(pRol.Top_Aux).AsQueryable();
