@@ -38,7 +38,7 @@ namespace Inventario.WebAPI.Controllers
             else
             {
                 return 0;
-            }//HOLAAAAAAAAAAAAAAAAAAA
+            }
         }
     }
 }
