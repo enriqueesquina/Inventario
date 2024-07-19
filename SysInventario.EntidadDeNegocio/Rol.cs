@@ -17,6 +17,7 @@ public partial class Rol
     [NotMapped]
     public int Top_Aux { get; set; }
     //prueba 2243444
+    //Via lactea 
     public List<Usuario>? Usuario { get; set; }
 
 }
