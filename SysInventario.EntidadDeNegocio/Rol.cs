@@ -16,7 +16,7 @@ public partial class Rol
     //Enrique 2024
     [NotMapped]
     public int Top_Aux { get; set; }
-    //prueba 2243
+    //prueba 2243444
     public List<Usuario>? Usuario { get; set; }
 
 }
