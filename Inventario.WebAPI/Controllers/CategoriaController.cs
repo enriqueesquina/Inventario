@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SysInventario.AccesoADatos;
 using SysInventario.EntidadDeNegocio;
 
@@ -39,6 +40,20 @@ namespace Inventario.WebAPI.Controllers
             {
                 return 0;
             }
+        }
+        [HttpDelete(Name = "DeleteCategorias")]
+        public async Task<int> Delete(int id)
+        {
+            using (var bdContext = new BdContext())
+            {
+                var categoria = await bdContext.Categoria.FirstOrDefaultAsync(s => s.Id == id);
+                if (id >= 0)
+                {
+                    bdContext.Categoria.Remove(categoria!);
+                    id = await bdContext.SaveChangesAsync();
+                }
+            }
+            return id;
         }
     }
 }
