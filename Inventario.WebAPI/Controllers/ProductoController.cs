@@ -53,5 +53,27 @@ namespace Inventario.WebAPI.Controllers
             }
             return id;
         }
+
+        [HttpPut(Name = "Put/Productos")]
+        public async Task<int> Put(int id, Producto pProducto)
+        {
+            using (var bdContext = new BdContext())
+            {
+                var producto = await bdContext.Producto.FirstOrDefaultAsync(c => c.Id == id);
+
+                producto.Nombre = pProducto.Nombre;
+                producto.Precio = pProducto.Precio;
+                producto.Stock = pProducto.Stock;
+                producto.Foto = pProducto.Foto;
+                producto.IdUsuario = pProducto.IdUsuario;
+                producto.IdCategoria = pProducto.IdCategoria;
+
+                await bdContext.SaveChangesAsync();
+
+                return 1;
+                //lis
+            }
+        }
+
     }
 }
