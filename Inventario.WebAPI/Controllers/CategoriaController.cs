@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SysInventario.AccesoADatos;
 using SysInventario.EntidadDeNegocio;
+using SysInventario.LogicaDeNegocio;
+
 
 namespace Inventario.WebAPI.Controllers
 {
@@ -12,11 +14,11 @@ namespace Inventario.WebAPI.Controllers
     {
 
 
-        [HttpGet(Name ="GetCategorias")]
+        [HttpGet(Name = "GetCategorias")]
 
-    public async Task<List<Categoria>> Get()
+        public async Task<List<Categoria>> Get()
         {
-            var listacategoria =await CategoriaDAL.ObtenerTodosAsync();
+            var listacategoria = await CategoriaDAL.ObtenerTodosAsync();
             if (listacategoria.Count >= 1)
             {
                 return listacategoria;
@@ -55,5 +57,22 @@ namespace Inventario.WebAPI.Controllers
             }
             return id;
         }
+
+        [HttpPut(Name = "Put/Categorias")]
+        public async Task<int> Put(int id, Categoria categoria)
+        {
+            using (var bdContext = new BdContext())
+            {
+                var Categoria = await bdContext.Categoria.FirstOrDefaultAsync(c => c.Id == id);
+
+                Categoria!.Nombre = categoria.Nombre;
+                Categoria.Ubicacion = categoria.Ubicacion;
+
+                await bdContext.SaveChangesAsync(); 
+
+                return 1 ; 
+            }
+        }
+
     }
 }
