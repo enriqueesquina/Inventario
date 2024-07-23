@@ -24,7 +24,6 @@ namespace Inventario.WebAPI.Controllers
             {
                 return new List<Producto>();
             }
-
         }
 
         [HttpPost(Name = "PostProductos")]
