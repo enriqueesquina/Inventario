@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SysInventario.AccesoADatos;
+using Microsoft.EntityFrameworkCore;
 using SysInventario.EntidadDeNegocio;
 
 namespace Inventario.WebAPI.Controllers
@@ -37,5 +38,43 @@ namespace Inventario.WebAPI.Controllers
                 return 0;
             }
         }
+
+        [HttpDelete(Name = "DeleteUsuario")]
+        public async Task<int> Delete(int id)
+        {
+            using (var bdContext = new BdContext())
+            {
+                var usuario = await bdContext.Usuario.FirstOrDefaultAsync(s => s.Id == id);
+                if (id >= 0)
+                {
+                    bdContext.Usuario.Remove(usuario!);
+                    id = await bdContext.SaveChangesAsync();
+                }
+            }
+            return id;
+        }
+
+        [HttpPut(Name = "Put/Usuarios")]
+        public async Task<int> Put(int id, Usuario pUsuario)
+        {
+            using (var bdContext = new BdContext())
+            {
+                var usuario = await bdContext.Usuario.FirstOrDefaultAsync(c => c.Id == id);
+
+                usuario!.IdRol = pUsuario.IdRol;
+                usuario.Nombre = pUsuario.Nombre;
+                usuario.Apellido = pUsuario.Apellido;
+                usuario.Login = pUsuario.Login;
+                usuario.Password = pUsuario.Password;
+                usuario.Estatus = pUsuario.Estatus;
+                usuario.FechaRegistro = pUsuario.FechaRegistro;
+
+                await bdContext.SaveChangesAsync();
+
+                return 1;
+                //lis
+            }
+        }
+
     }
 }
